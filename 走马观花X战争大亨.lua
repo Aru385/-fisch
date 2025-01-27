@@ -4119,12 +4119,9 @@ local creds = window:Tab("基本信息")
 
 local bin = creds:section("信息",true)
 
-    bin:Label("抵制倒卖脚本狗")
     bin:Label("你的注入器:"..identifyexecutor())
-    bin:Label("作者:HY")
-    bin:Label("如果你是买的你就是被骗了")
-    bin:Label("此脚本永远免费")
-    bin:Label("致谢:修勾、Sumi")
+    bin:Label("作者:小爱同学")
+    bin:Label("走马观花X交流群:530634599")
 
 local credits = creds:section("UI设置",true)
 
